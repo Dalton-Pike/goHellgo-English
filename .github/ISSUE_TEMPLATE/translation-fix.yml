@@ -1,0 +1,93 @@
+name: Translation fix request
+description: Suggest a better English line. Chapter, line, change and reason are all required.
+title: "[Fix] "
+labels: ["translation"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping fix the machine translation! Please fill in **all four** required fields. Requests missing one may be closed.
+        One line per request (a few lines from the same scene are fine).
+  - type: dropdown
+    id: chapter
+    attributes:
+      label: Chapter
+      description: Where does the line appear? Chapter titles are shown at the start of each chapter.
+      options:
+        - "#01 Welcome to Hell"
+        - "#02 I Am Jigoku Koshi"
+        - "#03 Boss Stage"
+        - "#04 My Name Is..."
+        - "#05 At Last, the Robot"
+        - "#06 Won't Quit Those Tits"
+        - "#07 Big Pit Spin"
+        - "#08 Bigger Is Better"
+        - "#09 Brain Battle"
+        - "#10 Spidery Sky"
+        - "#11 Three Arrows Loosed"
+        - "#12 Thread Graspers"
+        - "#13 Follow the Blood"
+        - "#14 Idiot Comes with a Kanabo"
+        - "#15 Hell Is Full of Oni"
+        - "#16 Double Deal"
+        - "#17 Niche Trade"
+        - "#18 Triple Threat"
+        - "#19 Bullshit Jobs"
+        - "#20 This Is Warped"
+        - "#21 Melt"
+        - "#22 Abyssal Light"
+        - "#23 Long Night"
+        - "#24 Not the Finale Yet"
+        - "#25 Sanitization"
+        - "#26 Welcome to Hell"
+        - "Hell scene, staff episode or other side scene"
+        - "Menus, items, skills or battle text"
+        - "English manual (in-game or the Manual (English) folder)"
+        - "Not sure"
+    validations:
+      required: true
+  - type: textarea
+    id: line
+    attributes:
+      label: Line
+      description: The line exactly as it reads in the game, letter for letter, with the speaker's name if there is one.
+      placeholder: 'Tomori: "..."'
+    validations:
+      required: true
+  - type: textarea
+    id: change
+    attributes:
+      label: Change
+      description: What the line should say instead.
+    validations:
+      required: true
+  - type: textarea
+    id: reason
+    attributes:
+      label: Reason
+      description: Why? For example a mistranslation, wrong name or term, wrong tone or voice, typo, dropped honorific, or text running out of its box.
+    validations:
+      required: true
+  - type: textarea
+    id: japanese
+    attributes:
+      label: Original Japanese (optional)
+      description: If you can read it, the Japanese line helps a lot.
+  - type: textarea
+    id: screenshot
+    attributes:
+      label: Screenshot (optional)
+      description: Drag an image here.
+  - type: input
+    id: version
+    attributes:
+      label: Patch version
+      description: Shown on the first page of the installer.
+      placeholder: 0.0.1-beta
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Agreement
+      options:
+        - label: I agree that this correction may be used in the patch under the project's LICENSE, without payment.
+          required: true

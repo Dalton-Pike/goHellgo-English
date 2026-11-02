@@ -1,0 +1,52 @@
+name: Bug report
+description: Installer problems, crashes, text running out of its box, or Japanese text that should be English.
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        For a wrong or awkward English line, use a **Translation fix request** instead.
+  - type: dropdown
+    id: system
+    attributes:
+      label: How do you run the game?
+      options:
+        - Windows 11
+        - Windows 10
+        - Mac with CrossOver
+        - Linux with Wine, Proton or Lutris
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Patch version
+      placeholder: 0.0.1-beta
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Where did you buy the game, and which edition?
+      description: Needed if the installer says your game version is different.
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: Include any error message word for word, and where in the game it happened.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: How can it be reproduced?
+      placeholder: |
+        1. ...
+        2. ...
+  - type: textarea
+    id: screenshot
+    attributes:
+      label: Screenshot (optional)
+      description: Drag an image here.

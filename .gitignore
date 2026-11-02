@@ -1,0 +1,14 @@
+# Game-derived content and builds: never commit (see docs/BUILDING.md)
+/work/
+*.pak
+*.exe
+*.uasset
+*.uexp
+*.ubulk
+*.sha256
+
+# Local environment
+/.venv/
+__pycache__/
+*.pyc
+.DS_Store
