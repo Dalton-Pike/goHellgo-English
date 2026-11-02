@@ -6,7 +6,7 @@
 
 **A free, unofficial English fan translation for goHELLgo Tsukiotoshiteko** (ゴーヘルゴー つきおとしてこ), the Windows PC version.
 
-**Version 0.0.1 beta** · [Download](../../releases/latest) · [Report a translation mistake](../../issues/new?template=translation-fix.yml) · [Report a bug](../../issues/new?template=bug-report.yml)
+**Version 0.0.1 beta** · [Download](../../releases/latest) · [Watch the video](https://youtu.be/gzaNfzORYww) · [Report a translation mistake](../../issues/new?template=translation-fix.yml) · [Report a bug](../../issues/new?template=bug-report.yml)
 
 > [!IMPORTANT]
 > **You need a full copy of the game.** This patch is not the game and does not contain it. It only works with a legitimately purchased PC copy of goHELLgo Tsukiotoshiteko that is already installed. Please buy the game to support its creators.
@@ -20,8 +20,17 @@
 > [!NOTE]
 > **The patch is 100% free and always will be.** If you paid for it, you were scammed. The only official download is on this page.
 
+## Video
+
+<p align="center">
+  <a href="https://youtu.be/gzaNfzORYww"><img src="docs/images/video-thumbnail.jpg" width="640" alt="Watch the goHELLgo English patch showcase on YouTube"></a>
+  <br>
+  <a href="https://youtu.be/gzaNfzORYww"><b>▶ Watch the showcase on YouTube</b></a> (1:44): the title screen, options, manual, story, staff info and battles, all in English.
+</p>
+
 ## Contents
 
+- [Video](#video)
 - [What the patch changes](#what-the-patch-changes)
 - [Screenshots](#screenshots)
 - [Requirements](#requirements)
